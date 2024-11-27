@@ -9,7 +9,7 @@ export const child = defineType({
           name: 'parent',
           title: 'Parent Driver',
           type: 'reference',
-          to: [{ type: 'parentDriver' }],
+          to: [{ type: 'parent' }],
             description: 'Select the parent driver this child inherits from.',
         },
         {
